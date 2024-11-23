@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="Find_Place"
-        android:text="Find Resturants"
+        android:text="Search"
         android:textSize="24sp" />
 
 </LinearLayout>
