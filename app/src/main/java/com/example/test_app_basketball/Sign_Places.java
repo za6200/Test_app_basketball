@@ -149,11 +149,11 @@ public class Sign_Places extends AppCompatActivity implements OnMapReadyCallback
         longitude = location.getLongitude();
 
         // Update map when location changes
-        if (mMap != null) {
+        /*if (mMap != null) {
             LatLng currentLocation = new LatLng(latitude, longitude);
-            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentLocation, 14f));
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentLocation, 15f));
             mMap.clear();
-        }
+        }*/
     }
 
     private void fetchNearbyRestaurants() {
