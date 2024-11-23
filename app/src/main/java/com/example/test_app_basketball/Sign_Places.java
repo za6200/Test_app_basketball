@@ -168,7 +168,7 @@ public class Sign_Places extends AppCompatActivity implements OnMapReadyCallback
         String url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
                 + "?location=" + latitude + "," + longitude
                 + "&radius=" + radiusInMeters
-                + "&type=restaurant" // Make sure 'restaurant' is a valid type
+                + "&type=restaurant"
                 + "&key=" + apiKey;
 
         Log.d(TAG, "Fetching nearby restaurants with URL: " + url);
