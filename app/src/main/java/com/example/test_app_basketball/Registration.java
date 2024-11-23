@@ -52,8 +52,8 @@ public class Registration extends AppCompatActivity {
              Intent intent = new Intent(this, Sign_Places.class);
              startActivity(intent);
         }else if(st.equals("Signs2")){
-             /*Intent intent = new Intent(this, Signs2.class);
-             startActivity(intent);*/
+             Intent intent = new Intent(this, Signs2.class);
+             startActivity(intent);
         }
 
         return super.onContextItemSelected(item);

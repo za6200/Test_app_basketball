@@ -314,8 +314,8 @@ public class Sign_Places extends AppCompatActivity implements OnMapReadyCallback
             Intent intent = new Intent(this, Sign_Places.class);
             startActivity(intent);
         } else if (st.equals("Signs2")) {
-            // Intent intent = new Intent(this, Signs2.class);
-            // startActivity(intent);
+            Intent intent = new Intent(this, Signs2.class);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);
